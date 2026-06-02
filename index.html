@@ -31,7 +31,7 @@
       <p class="hero-greeting">Hello, I'm</p>
       <h1 class="hero-name">Ally Bo</h1>
       <p class="hero-title">Computational Chemist &amp; CADD Scientist</p>
-      <p class="hero-tagline">Your tagline or one-liner goes here.</p>
+      <p class="hero-tagline">Physics-based modeling, generative AI, and machine learning for structure- and ligand-based drug discovery.</p>
       <div class="hero-cta">
         <a href="#research" class="btn btn-primary">View My Work</a>
         <a href="#contact" class="btn btn-outline">Get in Touch</a>
@@ -43,21 +43,21 @@
       <h2 class="section-title">About Me</h2>
       <div class="about-grid">
         <div class="about-text">
-          <p>Write your bio here. Describe your background, research interests, and what drives your work in computational chemistry and computer-aided drug design.</p>
-          <p>Add a second paragraph with more detail about your current focus areas or career goals.</p>
+          <p>PhD in Computational Chemistry from the University of Oxford with 3+ years of industry experience developing CADD tools and driving small-molecule and PROTAC projects from hit identification through lead optimization. Expert in executing physics-based methods (docking, MD, FEP) alongside building data-driven methodologies for structure- and ligand-based drug discovery.</p>
+          <p>Currently a Computational Chemist at Roche (China Innovation Center), leveraging generative models for de novo design and building ML workflows for virtual screening. Previously an EPSRC-funded doctoral researcher at Oxford, awarded the EPSRC Doctoral Prize for excellent impact of doctoral work.</p>
         </div>
         <div class="about-highlights">
           <div class="highlight-card">
-            <span class="highlight-number">&mdash;</span>
-            <span class="highlight-label">Years of Experience</span>
+            <span class="highlight-number">3+</span>
+            <span class="highlight-label">Years Industry Experience</span>
           </div>
           <div class="highlight-card">
-            <span class="highlight-number">&mdash;</span>
+            <span class="highlight-number">8</span>
             <span class="highlight-label">Publications</span>
           </div>
           <div class="highlight-card">
-            <span class="highlight-number">&mdash;</span>
-            <span class="highlight-label">Projects</span>
+            <span class="highlight-number">5+</span>
+            <span class="highlight-label">Drug Discovery Projects</span>
           </div>
         </div>
       </div>
@@ -68,22 +68,40 @@
       <h2 class="section-title">Research &amp; Projects</h2>
       <div class="card-grid">
         <div class="card">
-          <div class="card-icon"><i class="fas fa-atom"></i></div>
-          <h3>Project Title 1</h3>
-          <p>Brief description of your research project or contribution.</p>
-          <div class="card-tags"><span>Tag 1</span><span>Tag 2</span></div>
+          <div class="card-icon"><i class="fas fa-pills"></i></div>
+          <h3>Small-Molecule &amp; PROTAC Drug Design</h3>
+          <p>SBDD support for 5+ projects at Roche, designing molecules and macrocycles across 3 chemical series, all achieving &lt;100 nM affinity. MD-driven selectivity analysis to mitigate off-target liability.</p>
+          <div class="card-tags"><span>SBDD</span><span>PROTAC</span><span>Macrocycles</span><span>MD</span></div>
         </div>
         <div class="card">
-          <div class="card-icon"><i class="fas fa-dna"></i></div>
-          <h3>Project Title 2</h3>
-          <p>Brief description of your research project or contribution.</p>
-          <div class="card-tags"><span>Tag 1</span><span>Tag 2</span></div>
+          <div class="card-icon"><i class="fas fa-robot"></i></div>
+          <h3>Generative AI for De Novo Design</h3>
+          <p>Developed generative models for molecule generation and optimization. Applied pocket-based generative models to identify &lt;10 &mu;M hits for 3 targets. Built tools for macrocycle generation, fragment growing, and ring strain analysis.</p>
+          <div class="card-tags"><span>Generative AI</span><span>De Novo Design</span><span>Diffusion Models</span></div>
+        </div>
+        <div class="card">
+          <div class="card-icon"><i class="fas fa-database"></i></div>
+          <h3>Ultra-Large Virtual Screening</h3>
+          <p>Deep learning-based virtual screening workflow for libraries of &gt;100M compounds, reducing chemical search space by &gt;80% while docking &lt;0.5% of the library. Co-developed Uni-Dock (GPU-accelerated docking) and Uni-GBSA.</p>
+          <div class="card-tags"><span>Virtual Screening</span><span>Deep Learning</span><span>Uni-Dock</span></div>
+        </div>
+        <div class="card">
+          <div class="card-icon"><i class="fas fa-atom"></i></div>
+          <h3>Membrane Protein &amp; Transporter Simulations</h3>
+          <p>MD and enhanced sampling to map thermodynamic energy profiles and passive diffusion mechanisms of small-molecule transporters. Investigated conformational dynamics of covalently linked molecules in membrane proteins.</p>
+          <div class="card-tags"><span>MD Simulations</span><span>Enhanced Sampling</span><span>FEP</span></div>
+        </div>
+        <div class="card">
+          <div class="card-icon"><i class="fas fa-microscope"></i></div>
+          <h3>Single-Molecule Sensing &amp; Protein Engineering</h3>
+          <p>Developed ML models to predict single-channel current levels in engineered biological membrane proteins. MD simulations of protein mutants to guide rational engineering of protein surfaces for single-molecule sensing.</p>
+          <div class="card-tags"><span>ML</span><span>Protein Engineering</span><span>Nanopore</span></div>
         </div>
         <div class="card">
           <div class="card-icon"><i class="fas fa-flask"></i></div>
-          <h3>Project Title 3</h3>
-          <p>Brief description of your research project or contribution.</p>
-          <div class="card-tags"><span>Tag 1</span><span>Tag 2</span></div>
+          <h3>Uni-GBSA &amp; CADD Tool Development</h3>
+          <p>Main developer of Uni-GBSA: an open-source automated package for high-throughput MM/GB(PB)SA calculations, integrated into a commercial drug discovery platform. Published as co-first author in Briefings in Bioinformatics.</p>
+          <div class="card-tags"><span>Open Source</span><span>MM/GBSA</span><span>Tool Dev</span></div>
         </div>
       </div>
     </div>
@@ -95,73 +113,65 @@
         <li class="pub-item">
           <span class="pub-year">2025</span>
           <div class="pub-details">
-            <p class="pub-title">Targeted high-resolution sensing of volatile organic compounds by covalent nanopore detection</p>
-            <p class="pub-authors">McGivern, L.E.; Lim, Z.H.; Yuan, Y.; Bo, Z.; Wu, G.; Bayley, H.; Qing, Y.</p>
-            <p class="pub-journal"><em>Nature Communications</em>, 16(1), 9409.</p>
-            <span class="pub-citations"><i class="fas fa-quote-right"></i> 4 citations</span>
+            <p class="pub-title">Unexpected diastereoselective chemistry on a 2D protein surface</p>
+            <p class="pub-authors">Z.H. Lim, <strong>Z. Bo</strong>, E. Armstrong, H. Bayley, Y. Qing</p>
+            <p class="pub-journal"><em>Chem</em>, 11(12), 102717.</p>
           </div>
         </li>
         <li class="pub-item">
           <span class="pub-year">2025</span>
           <div class="pub-details">
-            <p class="pub-title">Unexpected diastereoselective chemistry on a 2D protein surface</p>
-            <p class="pub-authors">Lim, Z.H.; Bo, Z.; Armstrong, E.; Bayley, H.; Qing, Y.</p>
-            <p class="pub-journal"><em>Chem</em>, 11(12).</p>
-            <span class="pub-citations"><i class="fas fa-quote-right"></i> 1 citation</span>
+            <p class="pub-title">Targeted high-resolution sensing of volatile organic compounds by covalent nanopore detection</p>
+            <p class="pub-authors">L.E. McGivern, Z.H. Lim, Y. Yuan, <strong>Z. Bo</strong>, G. Wu, H. Bayley, Y. Qing</p>
+            <p class="pub-journal"><em>Nat. Commun.</em>, 16(1), 9409.</p>
           </div>
         </li>
         <li class="pub-item">
           <span class="pub-year">2024</span>
           <div class="pub-details">
             <p class="pub-title">PythiaCHEM: a user-friendly machine learning toolkit for chemistry</p>
-            <p class="pub-authors">Zavitsanou, S.; Bo, Z.; Casali, E.; Langton, M.; Duarte, F.</p>
-            <p class="pub-journal"><em>ChemRxiv</em>, 2024(0112).</p>
-            <span class="pub-citations"><i class="fas fa-quote-right"></i> 1 citation</span>
-          </div>
-        </li>
-        <li class="pub-item">
-          <span class="pub-year">2023</span>
-          <div class="pub-details">
-            <p class="pub-title">Uni-Dock: GPU-accelerated docking enables ultralarge virtual screening</p>
-            <p class="pub-authors">Yu, Y.; Cai, C.; Wang, J.; Bo, Z.; Zhu, Z.; Zheng, H.</p>
-            <p class="pub-journal"><em>Journal of Chemical Theory and Computation</em>, 19(11), 3336&ndash;3345.</p>
-            <span class="pub-citations"><i class="fas fa-quote-right"></i> 112 citations</span>
+            <p class="pub-authors">S. Zavitsanou, <strong>Z. Bo</strong>, E. Casali, M.J. Langton, F. Duarte</p>
+            <p class="pub-journal"><em>ChemRxiv</em>, 2024.</p>
           </div>
         </li>
         <li class="pub-item">
           <span class="pub-year">2023</span>
           <div class="pub-details">
             <p class="pub-title">Uni-GBSA: an open-source and web-based automatic workflow to perform MM/GB(PB)SA calculations for virtual screening</p>
-            <p class="pub-authors">Yang, M.; Bo, Z.; Xu, T.; Xu, B.; Wang, D.; Zheng, H.</p>
-            <p class="pub-journal"><em>Briefings in Bioinformatics</em>, 24(4), bbad218.</p>
-            <span class="pub-citations"><i class="fas fa-quote-right"></i> 69 citations</span>
+            <p class="pub-authors"><strong>Z. Bo*</strong>, M. Yang*, T. Xu, B. Xu, D. Wang, H. Zheng <span class="pub-note">(*co-first author)</span></p>
+            <p class="pub-journal"><em>Brief. Bioinform.</em>, 24(4), bbad218.</p>
           </div>
         </li>
         <li class="pub-item">
           <span class="pub-year">2023</span>
           <div class="pub-details">
-            <p class="pub-title">Mobile molecules: reactivity profiling guides faster movement on a cysteine track</p>
-            <p class="pub-authors">Bo, Z.; Lim, Z.H.; Duarte, F.; Bayley, H.; Qing, Y.</p>
-            <p class="pub-journal"><em>Angewandte Chemie</em>, 135(21), e202300890.</p>
-            <span class="pub-citations"><i class="fas fa-quote-right"></i> 6 citations</span>
+            <p class="pub-title">Mobile molecules: reactivity profiling guides faster stepping on a cysteine track</p>
+            <p class="pub-authors"><strong>Z. Bo</strong>, Z.H. Lim, F. Duarte, H. Bayley, Y. Qing</p>
+            <p class="pub-journal"><em>Angew. Chem. Int. Ed.</em>, 62, e202300890.</p>
+          </div>
+        </li>
+        <li class="pub-item">
+          <span class="pub-year">2023</span>
+          <div class="pub-details">
+            <p class="pub-title">Uni-Dock: GPU-accelerated docking enables ultra-large virtual screening</p>
+            <p class="pub-authors">Y. Yu*, C. Cai*, J. Wang*, <strong>Z. Bo</strong>, Z. Zhu, H. Zheng</p>
+            <p class="pub-journal"><em>J. Chem. Theory Comput.</em>, 19(11), 3336&ndash;3345.</p>
           </div>
         </li>
         <li class="pub-item">
           <span class="pub-year">2023</span>
           <div class="pub-details">
             <p class="pub-title">A benchmark for accurate GPCR ligand binding affinity prediction with free energy perturbation</p>
-            <p class="pub-authors">Guo, Y.; Zhou, Y.; Bai, Q.; Bo, Z.; Song, K.; Chang, J.; Zhang, Y.; Yang, M.; Deng, Y.; et al.</p>
-            <p class="pub-journal"><em>ChemRxiv</em>, 2023(0920).</p>
-            <span class="pub-citations"><i class="fas fa-quote-right"></i> 1 citation</span>
+            <p class="pub-authors">Y. Guo, Y. Zhou, Q. Bai, <strong>Z. Bo</strong>, K. Song, J. Chang, Y. Zhang, M. Yang, Y. Deng, D. Wang</p>
+            <p class="pub-journal"><em>ChemRxiv</em>, 2023.</p>
           </div>
         </li>
         <li class="pub-item">
           <span class="pub-year">2021</span>
           <div class="pub-details">
             <p class="pub-title">Red-shifted tetra-ortho-halo-azobenzenes for photo-regulated transmembrane anion transport</p>
-            <p class="pub-authors">Kerckhoffs, A.; Bo, Z.; Penty, S.E.; Duarte, F.; Langton, M.J.</p>
-            <p class="pub-journal"><em>Organic &amp; Biomolecular Chemistry</em>, 19(41), 9058&ndash;9067.</p>
-            <span class="pub-citations"><i class="fas fa-quote-right"></i> 50 citations</span>
+            <p class="pub-authors">A. Kerckhoffs, <strong>Z. Bo</strong>, S. Penty, F. Duarte, M.J. Langton</p>
+            <p class="pub-journal"><em>Org. Biomol. Chem.</em>, 19, 9058.</p>
           </div>
         </li>
       </ul>
@@ -172,41 +182,41 @@
       <h2 class="section-title">Skills &amp; Tools</h2>
       <div class="skills-grid">
         <div class="skill-category">
-          <h3><i class="fas fa-laptop-code"></i> Computational Methods</h3>
+          <h3><i class="fas fa-atom"></i> Physics-Based Modeling</h3>
           <ul>
+            <li>MD Simulations (GROMACS, OpenMM, Desmond)</li>
+            <li>Enhanced Sampling Methods</li>
+            <li>Free Energy Perturbation (FEP)</li>
             <li>Molecular Docking</li>
-            <li>Molecular Dynamics</li>
-            <li>Virtual Screening</li>
-            <li>QSAR / QSPR Modeling</li>
-            <li>Pharmacophore Modeling</li>
+            <li>Binding Pose Stability Assessment</li>
           </ul>
         </div>
         <div class="skill-category">
-          <h3><i class="fas fa-code"></i> Programming</h3>
+          <h3><i class="fas fa-pills"></i> SBDD / LBDD</h3>
           <ul>
-            <li>Python</li>
-            <li>R</li>
-            <li>Bash / Shell</li>
-            <li>SQL</li>
+            <li>Rational Molecular Design</li>
+            <li>PROTAC &amp; Small-Molecule Modeling</li>
+            <li>Macrocycle Design</li>
+            <li>Scaffold Hopping</li>
+            <li>Schr&ouml;dinger, MOE, OpenEye, RDKit</li>
           </ul>
         </div>
         <div class="skill-category">
-          <h3><i class="fas fa-tools"></i> Software &amp; Platforms</h3>
+          <h3><i class="fas fa-brain"></i> ML &amp; Generative AI</h3>
           <ul>
-            <li>Schr&ouml;dinger Suite</li>
-            <li>RDKit</li>
-            <li>AutoDock / Vina</li>
-            <li>GROMACS / AMBER</li>
-            <li>PyMOL / ChimeraX</li>
-          </ul>
-        </div>
-        <div class="skill-category">
-          <h3><i class="fas fa-brain"></i> Machine Learning</h3>
-          <ul>
-            <li>Scikit-learn</li>
-            <li>PyTorch</li>
-            <li>Deep Learning for Drug Discovery</li>
             <li>Cheminformatics</li>
+            <li>Generative Models for De Novo Design</li>
+            <li>Deep Learning-Based Virtual Screening</li>
+            <li>Predictive Activity / Property Models</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fas fa-code"></i> Scientific Computing</h3>
+          <ul>
+            <li>Python, Bash</li>
+            <li>Workflow Automation</li>
+            <li>HPC Environments (Slurm, LSF/bsub)</li>
+            <li>GitHub Version Control</li>
           </ul>
         </div>
       </div>
@@ -219,28 +229,55 @@
         <div class="timeline-item">
           <div class="timeline-marker"></div>
           <div class="timeline-content">
-            <span class="timeline-date">Present</span>
-            <h3>Your Current Role</h3>
-            <p class="timeline-org">Organization Name</p>
-            <p>Brief description of your responsibilities and achievements.</p>
+            <span class="timeline-date">Jul 2024 &ndash; Present</span>
+            <h3>Computational Chemist / CADD Scientist</h3>
+            <p class="timeline-org">Roche, China Innovation Center &mdash; Shanghai, China</p>
+            <p>CADD support for 5+ small-molecule and PROTAC projects. Generative AI for de novo design. Built proprietary tools for macrocycle generation, fragment growing, and ring strain analysis.</p>
           </div>
         </div>
         <div class="timeline-item">
           <div class="timeline-marker"></div>
           <div class="timeline-content">
-            <span class="timeline-date">Year &ndash; Year</span>
-            <h3>Previous Role</h3>
-            <p class="timeline-org">Organization Name</p>
-            <p>Brief description of your responsibilities and achievements.</p>
+            <span class="timeline-date">Jan &ndash; Jul 2024</span>
+            <h3>Postdoctoral Researcher</h3>
+            <p class="timeline-org">University of Oxford, Department of Chemistry &mdash; Oxford, UK</p>
+            <p>ML models for single-channel current prediction in engineered membrane proteins. MD simulations of protein mutants for rational protein surface engineering.</p>
           </div>
         </div>
         <div class="timeline-item">
           <div class="timeline-marker"></div>
           <div class="timeline-content">
-            <span class="timeline-date">Year &ndash; Year</span>
-            <h3>Education / Degree</h3>
-            <p class="timeline-org">University Name</p>
-            <p>Degree details and thesis topic if applicable.</p>
+            <span class="timeline-date">Sep 2023 &ndash; Jan 2024</span>
+            <h3>CADD Research Intern</h3>
+            <p class="timeline-org">Roche, China Innovation Center &mdash; Shanghai, China</p>
+            <p>Deep learning-based virtual screening for ultra-large libraries (&gt;100M compounds). MD and enhanced sampling for ligand-binding pathway investigation.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">Oct 2022 &ndash; Jul 2023</span>
+            <h3>Computational Chemist / CADD Scientist (Part-time)</h3>
+            <p class="timeline-org">DP Technology &mdash; Remote</p>
+            <p>Main developer of Uni-GBSA. Supported development of CADD modules for docking, binding free energy, and pose stability. 3 publications including JCTC.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">Sep 2018 &ndash; Dec 2023</span>
+            <h3>PhD in Computational Chemistry</h3>
+            <p class="timeline-org">University of Oxford, Merton College &mdash; Oxford, UK</p>
+            <p>Thesis: Investigations into biological and small-molecule transmembrane systems. Supervised by Prof. Fernanda Duarte. EPSRC-funded; awarded the EPSRC Doctoral Prize.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">Oct 2014 &ndash; Jul 2018</span>
+            <h3>MChem Chemistry, 1st Class Honours</h3>
+            <p class="timeline-org">University of Oxford, Wadham College &mdash; Oxford, UK</p>
+            <p>Thesis: Chemical reactions in droplet network-based synthetic cells. Supervised by Prof. Hagan Bayley FRS. Three-time recipient of the Wadham College prize for academic excellence.</p>
           </div>
         </div>
       </div>
@@ -251,11 +288,11 @@
       <h2 class="section-title">Contact</h2>
       <p class="contact-intro">Interested in collaboration or have questions? Reach out.</p>
       <div class="contact-links">
-        <a href="mailto:you@example.com" class="contact-item">
-          <i class="fas fa-envelope"></i><span>you@example.com</span>
+        <a href="mailto:bozonghua@outlook.com" class="contact-item">
+          <i class="fas fa-envelope"></i><span>bozonghua@outlook.com</span>
         </a>
-        <a href="https://linkedin.com/in/yourprofile" class="contact-item" target="_blank">
-          <i class="fab fa-linkedin"></i><span>LinkedIn</span>
+        <a href="https://orcid.org/0000-0003-4728-2968" class="contact-item" target="_blank">
+          <i class="fab fa-orcid"></i><span>ORCID</span>
         </a>
         <a href="https://github.com/allybo" class="contact-item" target="_blank">
           <i class="fab fa-github"></i><span>GitHub</span>
