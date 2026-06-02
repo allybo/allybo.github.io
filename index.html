@@ -3,57 +3,272 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Your Name | Portfolio</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4; color: #333; }
-    header { background: #2c3e50; color: white; padding: 40px; text-align: center; }
-    nav a { color: white; margin: 0 15px; text-decoration: none; font-size: 16px; }
-    section { max-width: 800px; margin: 40px auto; padding: 20px; background: white; border-radius: 8px; }
-    h2 { color: #2c3e50; }
-    footer { text-align: center; padding: 20px; color: #aaa; }
-  </style>
+  <title>Ally Bo | Computational Chemist & CADD Scientist</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-  <header>
-    <h1>Your Name</h1>
-    <p>Your Title / Role at Roche</p>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#work">Work</a>
-      <a href="#skills">Skills</a>
-      <a href="#contact">Contact</a>
-    </nav>
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">AB</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <header class="hero">
+    <div class="hero-content">
+      <p class="hero-greeting">Hello, I'm</p>
+      <h1 class="hero-name">Ally Bo</h1>
+      <p class="hero-title">Computational Chemist &amp; CADD Scientist</p>
+      <p class="hero-tagline">Your tagline or one-liner goes here.</p>
+      <div class="hero-cta">
+        <a href="#research" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-outline">Get in Touch</a>
+      </div>
+    </div>
   </header>
-
-  <section id="about">
-    <h2>👤 About Me</h2>
-    <p>Write a short bio about yourself here.</p>
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>Write your bio here. Describe your background, research interests, and what drives your work in computational chemistry and computer-aided drug design.</p>
+          <p>Add a second paragraph with more detail about your current focus areas or career goals.</p>
+        </div>
+        <div class="about-highlights">
+          <div class="highlight-card">
+            <span class="highlight-number">&mdash;</span>
+            <span class="highlight-label">Years of Experience</span>
+          </div>
+          <div class="highlight-card">
+            <span class="highlight-number">&mdash;</span>
+            <span class="highlight-label">Publications</span>
+          </div>
+          <div class="highlight-card">
+            <span class="highlight-number">&mdash;</span>
+            <span class="highlight-label">Projects</span>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
-
-  <section id="work">
-    <h2>💼 My Work</h2>
-    <p>Describe your projects, research, or contributions here.</p>
+  <section id="research" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Research &amp; Projects</h2>
+      <div class="card-grid">
+        <div class="card">
+          <div class="card-icon"><i class="fas fa-atom"></i></div>
+          <h3>Project Title 1</h3>
+          <p>Brief description of your research project or contribution.</p>
+          <div class="card-tags"><span>Tag 1</span><span>Tag 2</span></div>
+        </div>
+        <div class="card">
+          <div class="card-icon"><i class="fas fa-dna"></i></div>
+          <h3>Project Title 2</h3>
+          <p>Brief description of your research project or contribution.</p>
+          <div class="card-tags"><span>Tag 1</span><span>Tag 2</span></div>
+        </div>
+        <div class="card">
+          <div class="card-icon"><i class="fas fa-flask"></i></div>
+          <h3>Project Title 3</h3>
+          <p>Brief description of your research project or contribution.</p>
+          <div class="card-tags"><span>Tag 1</span><span>Tag 2</span></div>
+        </div>
+      </div>
+    </div>
   </section>
-
-  <section id="skills">
-    <h2>🛠️ Skills</h2>
-    <ul>
-      <li>Skill 1</li>
-      <li>Skill 2</li>
-      <li>Skill 3</li>
-    </ul>
+  <section id="publications" class="section">
+    <div class="container">
+      <h2 class="section-title">Publications</h2>
+      <ul class="pub-list">
+        <li class="pub-item">
+          <span class="pub-year">2025</span>
+          <div class="pub-details">
+            <p class="pub-title">Targeted high-resolution sensing of volatile organic compounds by covalent nanopore detection</p>
+            <p class="pub-authors">McGivern, L.E.; Lim, Z.H.; Yuan, Y.; Bo, Z.; Wu, G.; Bayley, H.; Qing, Y.</p>
+            <p class="pub-journal"><em>Nature Communications</em>, 16(1), 9409.</p>
+            <span class="pub-citations"><i class="fas fa-quote-right"></i> 4 citations</span>
+          </div>
+        </li>
+        <li class="pub-item">
+          <span class="pub-year">2025</span>
+          <div class="pub-details">
+            <p class="pub-title">Unexpected diastereoselective chemistry on a 2D protein surface</p>
+            <p class="pub-authors">Lim, Z.H.; Bo, Z.; Armstrong, E.; Bayley, H.; Qing, Y.</p>
+            <p class="pub-journal"><em>Chem</em>, 11(12).</p>
+            <span class="pub-citations"><i class="fas fa-quote-right"></i> 1 citation</span>
+          </div>
+        </li>
+        <li class="pub-item">
+          <span class="pub-year">2024</span>
+          <div class="pub-details">
+            <p class="pub-title">PythiaCHEM: a user-friendly machine learning toolkit for chemistry</p>
+            <p class="pub-authors">Zavitsanou, S.; Bo, Z.; Casali, E.; Langton, M.; Duarte, F.</p>
+            <p class="pub-journal"><em>ChemRxiv</em>, 2024(0112).</p>
+            <span class="pub-citations"><i class="fas fa-quote-right"></i> 1 citation</span>
+          </div>
+        </li>
+        <li class="pub-item">
+          <span class="pub-year">2023</span>
+          <div class="pub-details">
+            <p class="pub-title">Uni-Dock: GPU-accelerated docking enables ultralarge virtual screening</p>
+            <p class="pub-authors">Yu, Y.; Cai, C.; Wang, J.; Bo, Z.; Zhu, Z.; Zheng, H.</p>
+            <p class="pub-journal"><em>Journal of Chemical Theory and Computation</em>, 19(11), 3336&ndash;3345.</p>
+            <span class="pub-citations"><i class="fas fa-quote-right"></i> 112 citations</span>
+          </div>
+        </li>
+        <li class="pub-item">
+          <span class="pub-year">2023</span>
+          <div class="pub-details">
+            <p class="pub-title">Uni-GBSA: an open-source and web-based automatic workflow to perform MM/GB(PB)SA calculations for virtual screening</p>
+            <p class="pub-authors">Yang, M.; Bo, Z.; Xu, T.; Xu, B.; Wang, D.; Zheng, H.</p>
+            <p class="pub-journal"><em>Briefings in Bioinformatics</em>, 24(4), bbad218.</p>
+            <span class="pub-citations"><i class="fas fa-quote-right"></i> 69 citations</span>
+          </div>
+        </li>
+        <li class="pub-item">
+          <span class="pub-year">2023</span>
+          <div class="pub-details">
+            <p class="pub-title">Mobile molecules: reactivity profiling guides faster movement on a cysteine track</p>
+            <p class="pub-authors">Bo, Z.; Lim, Z.H.; Duarte, F.; Bayley, H.; Qing, Y.</p>
+            <p class="pub-journal"><em>Angewandte Chemie</em>, 135(21), e202300890.</p>
+            <span class="pub-citations"><i class="fas fa-quote-right"></i> 6 citations</span>
+          </div>
+        </li>
+        <li class="pub-item">
+          <span class="pub-year">2023</span>
+          <div class="pub-details">
+            <p class="pub-title">A benchmark for accurate GPCR ligand binding affinity prediction with free energy perturbation</p>
+            <p class="pub-authors">Guo, Y.; Zhou, Y.; Bai, Q.; Bo, Z.; Song, K.; Chang, J.; Zhang, Y.; Yang, M.; Deng, Y.; et al.</p>
+            <p class="pub-journal"><em>ChemRxiv</em>, 2023(0920).</p>
+            <span class="pub-citations"><i class="fas fa-quote-right"></i> 1 citation</span>
+          </div>
+        </li>
+        <li class="pub-item">
+          <span class="pub-year">2021</span>
+          <div class="pub-details">
+            <p class="pub-title">Red-shifted tetra-ortho-halo-azobenzenes for photo-regulated transmembrane anion transport</p>
+            <p class="pub-authors">Kerckhoffs, A.; Bo, Z.; Penty, S.E.; Duarte, F.; Langton, M.J.</p>
+            <p class="pub-journal"><em>Organic &amp; Biomolecular Chemistry</em>, 19(41), 9058&ndash;9067.</p>
+            <span class="pub-citations"><i class="fas fa-quote-right"></i> 50 citations</span>
+          </div>
+        </li>
+      </ul>
+    </div>
   </section>
-
-  <section id="contact">
-    <h2>📬 Contact</h2>
-    <p>Email: <a href="mailto:you@example.com">you@example.com</a></p>
-    <p>LinkedIn: <a href="#">linkedin.com/in/yourprofile</a></p>
+  <section id="skills" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Skills &amp; Tools</h2>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3><i class="fas fa-laptop-code"></i> Computational Methods</h3>
+          <ul>
+            <li>Molecular Docking</li>
+            <li>Molecular Dynamics</li>
+            <li>Virtual Screening</li>
+            <li>QSAR / QSPR Modeling</li>
+            <li>Pharmacophore Modeling</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fas fa-code"></i> Programming</h3>
+          <ul>
+            <li>Python</li>
+            <li>R</li>
+            <li>Bash / Shell</li>
+            <li>SQL</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fas fa-tools"></i> Software &amp; Platforms</h3>
+          <ul>
+            <li>Schr&ouml;dinger Suite</li>
+            <li>RDKit</li>
+            <li>AutoDock / Vina</li>
+            <li>GROMACS / AMBER</li>
+            <li>PyMOL / ChimeraX</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fas fa-brain"></i> Machine Learning</h3>
+          <ul>
+            <li>Scikit-learn</li>
+            <li>PyTorch</li>
+            <li>Deep Learning for Drug Discovery</li>
+            <li>Cheminformatics</li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </section>
-
-  <footer>
-    <p>© 2025 Your Name</p>
+  <section id="experience" class="section">
+    <div class="container">
+      <h2 class="section-title">Experience</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">Present</span>
+            <h3>Your Current Role</h3>
+            <p class="timeline-org">Organization Name</p>
+            <p>Brief description of your responsibilities and achievements.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">Year &ndash; Year</span>
+            <h3>Previous Role</h3>
+            <p class="timeline-org">Organization Name</p>
+            <p>Brief description of your responsibilities and achievements.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">Year &ndash; Year</span>
+            <h3>Education / Degree</h3>
+            <p class="timeline-org">University Name</p>
+            <p>Degree details and thesis topic if applicable.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contact" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Contact</h2>
+      <p class="contact-intro">Interested in collaboration or have questions? Reach out.</p>
+      <div class="contact-links">
+        <a href="mailto:you@example.com" class="contact-item">
+          <i class="fas fa-envelope"></i><span>you@example.com</span>
+        </a>
+        <a href="https://linkedin.com/in/yourprofile" class="contact-item" target="_blank">
+          <i class="fab fa-linkedin"></i><span>LinkedIn</span>
+        </a>
+        <a href="https://github.com/allybo" class="contact-item" target="_blank">
+          <i class="fab fa-github"></i><span>GitHub</span>
+        </a>
+        <a href="https://scholar.google.com/citations?user=j9Y-Pz8AAAAJ&hl=en" class="contact-item" target="_blank">
+          <i class="fas fa-graduation-cap"></i><span>Google Scholar</span>
+        </a>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <p>&copy; 2025 Ally Bo. All rights reserved.</p>
   </footer>
-
+  <script src="script.js"></script>
 </body>
 </html>
